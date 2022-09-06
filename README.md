@@ -16,9 +16,9 @@ with those configured by default, check out [create-t3-app](https://github.com/t
 Run the following command to create a new project:
 
 ```bash
-yarn create next-app [project-name] -e https://github.com...
+npx create-next-app [project-name] -e https://github.com/lucasdoell/t2-template
 # or
-npx create-next-app [project-name] -e https://github.com...
+yarn create next-app [project-name] -e https://github.com/lucasdoell/t2-template
 ```
 
 Then, run the development server:
