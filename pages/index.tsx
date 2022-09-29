@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <h1 className="text-6xl font-bold">
           Welcome to{" "}
           <a
-            className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-rose-500"
+            className="bg-gradient-to-r from-indigo-500 via-purple-500 to-rose-500 bg-clip-text text-transparent"
             href="https://nextjs.org"
           >
             Next.js
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 
         <p className="mt-3 text-2xl">
           Get started by editing{" "}
-          <code className="rounded-md bg-gray-100 dark:bg-gray-700 p-3 font-mono text-lg">
+          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg dark:bg-gray-700">
             pages/index.tsx
           </code>
         </p>
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border dark:border-gray-700 p-6 text-left hover:text-blue-600 focus:text-blue-600"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600 dark:border-gray-700"
           >
             <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
             <p className="mt-4 text-xl">
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
 
           <a
             href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border dark:border-gray-700 p-6 text-left hover:text-blue-600 focus:text-blue-600"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600 dark:border-gray-700"
           >
             <h3 className="text-2xl font-bold">Learn &rarr;</h3>
             <p className="mt-4 text-xl">
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border dark:border-gray-700 p-6 text-left hover:text-blue-600 focus:text-blue-600"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600 dark:border-gray-700"
           >
             <h3 className="text-2xl font-bold">Examples &rarr;</h3>
             <p className="mt-4 text-xl">
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
 
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border dark:border-gray-700 p-6 text-left hover:text-blue-600 focus:text-blue-600"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600 dark:border-gray-700"
           >
             <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
             <p className="mt-4 text-xl">
