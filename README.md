@@ -4,6 +4,7 @@ This template comes configured with:
 - TypeScript
 - Tailwind CSS
 - An SEO component for easy meta tags
+- A configurable OG Image Generation API route using [@vercel/og](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation)
 - Custom `_document.tsx` and `_app.tsx` files
 - Recommended extensions for better DX
 
@@ -43,6 +44,7 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [@vercel/og Documentation](https://vercel.com/docs/concepts/functions/edge-functions/og-image-examples)
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
