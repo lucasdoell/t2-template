@@ -1,12 +1,14 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 
 type props = {
   title: string;
   description: string;
-  image: string;
 };
 
-export default function SEO({ title, description, image }: props) {
+export default function SEO({ title, description }: props) {
+  const router = useRouter();
+
   return (
     <Head>
       <title>{title}</title>
@@ -15,11 +17,11 @@ export default function SEO({ title, description, image }: props) {
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
       <meta property="og:type" content="website" />
-      {/* TODO: <meta property="og:url" content="https://url" /> */}
-      <meta
-        property="og:image"
-        // TODO: content={`https://url/images/${image}`}
-      />
+      {/* <meta
+        property="og:url"
+        content={`your-url-here.cc/${router.asPath}`}
+      /> */}
+      {/* TODO: replace URL with your own */}
       <meta property="og:description" content={description} />
       <meta property="og:locale" content="en_US" />
       <meta property="og:site_name" content={title} />
