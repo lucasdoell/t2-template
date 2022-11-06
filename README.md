@@ -64,7 +64,7 @@ All supported types can be found and changed in `.commitlintrc.cjs`. They are li
 
 ```
 'wip', 'feat', 'fix', 'config', 'refactor', 'revert',
-'chore', 'ci', 'assets', 'test', 'docs', 'init', 'update'
+'chore', 'ci', 'assets', 'test', 'docs', 'init'
 ```
 
 ## Learn More
