@@ -5,8 +5,8 @@ module.exports = {
       2,
       'always',
       [
-        'wip', 'feat', 'fix', 'config', 'refactor', 'revert',
-        'chore', 'ci', 'assets', 'test', 'docs', 'init', 'update'
+        'build', 'ci', 'docs', 'feat', 'fix', 'perf',
+        'style', 'refactor', 'test', 'chore', 'wip', 'init'
       ],
     ],
   },
