@@ -23,6 +23,7 @@
     "@types/node": "^18.7.15",
     "@types/react": "^18.0.18",
     "autoprefixer": "^10.4.8",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "8.23.0",
     "eslint-config-next": "^13.0.0",
     "postcss": "^8.4.16",
@@ -34,5 +35,15 @@
     "*.{js,jsx,ts,tsx}": [
       "prettier --staged --write"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
+    }
   }
 }
