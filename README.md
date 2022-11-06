@@ -1,3 +1,6 @@
+# Lucas Doell's `t2-template`
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 This is a [Next.js](https://nextjs.org/) template project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 This template comes configured with:
@@ -6,11 +9,14 @@ This template comes configured with:
 - An SEO component for easy meta tags
 - A configurable OG Image Generation API route using [@vercel/og](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation)
 - Custom `_document.tsx` and `_app.tsx` files
+- Commit message linting for better commit messages (see below for information)
 - Recommended extensions for better DX
 
 Feel free to add node modules as the project needs. This template is meant to be a starting point for your project, not a finished product. 
 Therefore, modules such as tRPC and Prisma are not included, as they may not be necessary for simple websites. If you would like to create a project 
-with those configured by default, check out [create-t3-app](https://github.com/t3-oss/create-t3-app). 
+with those configured by default, check out [create-t3-app](https://github.com/t3-oss/create-t3-app).
+
+This project evolves and grows as my own projects do. The tooling is chosen based on what I actually use for my own projects, as I use this template for every new project. If you have any suggestions, feel free to open an issue or PR.
 
 ## Getting Started
 
@@ -37,6 +43,29 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Committing to Your Repository with **Commitlint**
+For better commit messages, this template comes preconfigured with commitlint. This means that each commit should follow a specific format. Generally, each commit will look like this:
+```sh
+type(scope?): subject  #scope is optional; multiple scopes are supported (current delimiter options: "/", "\" and ",")
+```
+Some additional examples are:
+```sh
+chore: run tests on travis ci
+```
+```sh
+fix(server): send cors headers
+```
+```sh
+feat(blog): add comment section
+```
+
+All supported types can be found and changed in `.commitlintrc.cjs`. They are listed below:
+
+```
+'wip', 'feat', 'fix', 'config', 'refactor', 'revert',
+'chore', 'ci', 'assets', 'test', 'docs', 'init', 'update'
+```
 
 ## Learn More
 
