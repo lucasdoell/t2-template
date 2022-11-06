@@ -63,8 +63,8 @@ feat(blog): add comment section
 All supported types can be found and changed in `.commitlintrc.cjs`. They are listed below:
 
 ```
-'wip', 'feat', 'fix', 'config', 'refactor', 'revert',
-'chore', 'ci', 'assets', 'test', 'docs', 'init'
+'build', 'ci', 'docs', 'feat', 'fix', 'perf',
+'style', 'refactor', 'test', 'chore', 'wip', 'init'
 ```
 
 ## Learn More
